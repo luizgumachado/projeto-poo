@@ -1,4 +1,4 @@
-package cinema;
+package Cinema;
 public class Sessão {
     Filme filme;
     Sala sala;

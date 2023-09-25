@@ -1,4 +1,4 @@
-package cinema;
+package Cinema;
 
 public class Assento {
     int coluna;

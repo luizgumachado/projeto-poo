@@ -1,5 +1,6 @@
 package Tesouraria;
 
 public class Tesouraria{
-    Funcionario[] quadroFuncionarios;
+    QuadroFuncionarios quadroFuncionarios;
+    Tesouro tesouro;
 }
