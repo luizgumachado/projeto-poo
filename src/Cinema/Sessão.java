@@ -1,9 +1,13 @@
 package Cinema;
 public class Sessão {
-    Filme filme;
-    Sala sala;
-    java.time.LocalDateTime dataSessão;
+    Sala[] salas;
+    //mais de uma sala na mesma sessão
+    //filme dentro de sala
+    java.time.LocalDateTime inicio;
+    java.time.LocalDateTime fim;
     String dublagem;          //identifica se eh dublado ou não
-    boolean eh3d;
-    boolean acessibilidade;
+
+    Acessibilidade acesso;
+    //verificar herança em acessibilidade
+    //sessão & sessãoAcessível - sessãoAcessível possui objeto Acessibilidade
 }
