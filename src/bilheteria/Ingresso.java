@@ -1,9 +1,10 @@
-package Bilheteria;
-import Cinema.Sessão;
-import Cinema.Assento;
+package bilheteria;
+
+import cinema.Assento;
+import cinema.Sessao;
 public class Ingresso {
     float preco;
     String tipoEntrada;
-    Sessão sessao;
+    Sessao sessao;
     Assento assento;
 }

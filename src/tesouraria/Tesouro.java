@@ -1,4 +1,4 @@
-package Tesouraria;
+package tesouraria;
 
 public class Tesouro {
     int caixa;                  //saldo financeiro do cinema
@@ -7,6 +7,8 @@ public class Tesouro {
     public void adicionarSaldo(int receita) {
         this.caixa += receita;
     }
+
+
 }
 
 

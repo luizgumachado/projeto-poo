@@ -1,6 +1,6 @@
-package Cinema;
+package cinema;
 
 public class Programação {
-    Sessão[] sessões;
+    Sessao[] sessões;
     Filme[] filmesEmCartaz;
 }
